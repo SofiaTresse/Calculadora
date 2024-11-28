@@ -77,3 +77,37 @@ button:hover {
 .equal-btn:hover {
   background-color: #bd5500;
 }
+
+@media (max-width: 768px) {
+  .container1 {
+    width: 80%; /* Reduz a largura para telas menores */
+    padding: 15px; /* Ajusta o espaçamento interno */
+  }
+
+  button {
+    width: 50px; /* Botões menores */
+    font-size: 0.9rem; /* Texto menor */
+    padding: 8px 10px; /* Ajusta o espaçamento interno */
+  }
+
+  #display {
+    font-size: 1.2rem; /* Reduz o tamanho do texto */
+    padding: 8px; /* Menor espaçamento interno */
+    margin: 10px; /* Reduz o espaçamento externo */
+  }
+}
+
+@media (max-width: 480px) {
+  .buttons {
+    gap: 5px; /* Reduz o espaço entre botões */
+  }
+
+  button {
+    width: 40px; /* Botões ainda menores */
+    font-size: 0.8rem; /* Texto ainda menor */
+  }
+
+  #display {
+    font-size: 1rem; /* Ajusta o tamanho do texto para telas muito pequenas */
+  }
+}
